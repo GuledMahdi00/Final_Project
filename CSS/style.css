@@ -198,10 +198,7 @@ li {
   display: inline-block;
   margin-top: -160px;
   margin-left: 1270px;
-
-
 }
-
 
 
 .button2{
@@ -217,6 +214,46 @@ li {
   display: inline-block;
   margin-top: -160px;
   margin-left: 1380px;
-
-
 }
+
+/* Kontakt skjema */
+.contact-form {
+  background-color: lightgrey;
+  border-radius: 15px;
+  box-shadow: 10px 10px grey;
+  padding: 15px;
+  width: 60%;
+  margin: auto;
+}
+
+.contact-form input, textarea {
+  display: block;
+  padding: 0.75em;
+  box-shadow: 5px 5px grey;
+  margin-bottom: 1em;
+  width: 50%; 
+  border-color: white;
+}
+
+.contact-form input:focus, textarea:focus {
+  transition: 0.5s;
+  box-shadow: 0px 0px;
+}
+
+
+.contact-form button {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+  padding: 10px;
+  box-shadow: 5px 5px grey;
+}
+
+.form-melding {
+  margin-top: 1em;
+  width: 60%;
+  border: 1px solid black;
+  padding: 1em;
+  background-color: lightyellow;
+}
+
