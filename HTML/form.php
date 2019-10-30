@@ -24,7 +24,6 @@
           echo "</div>";
         }
         ?>
-        </span>
       </form>
   </body>
 </html>
