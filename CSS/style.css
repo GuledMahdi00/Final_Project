@@ -1,9 +1,84 @@
-<<<<<<< Updated upstream
+
 body{
     margin: 0;
     padding: 0;
 }
+body{
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 2;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
 
+}
+/*global*/
+.container{
+  width: 80%;
+  margin: auto;/*move eveything to the middle*/
+  overflow: hidden;/*dont wanna a scrollbar on the site*/
+
+}
+
+ul{
+ margin: 0;
+ padding: 0;
+
+}
+.button_1{
+  height:38px;
+  background: #e8491d;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color:#ffffff;
+}
+
+
+/*header*/
+header{
+  background:#35424a;
+  color:white;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: aquamarine 3px solid;/*color in botton of the header*/
+}
+
+header a{/*all the links tags*/
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+
+header li{
+  float:left;
+  display: inline;
+  padding: 0 20px 0 20px;/*top right bottom left*/
+}
+header #branding{
+  float: left;
+}
+
+header #branding h1{
+  margin: 0;
+}
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+
+
+header a:hover{
+
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: yellow;
+  padding: 10px;
+  margin: 0;
+}
 
 
 
@@ -38,7 +113,7 @@ footer{
 .social p:hover{
     color: #4c4cff;
     cursor: pointer;
-    
+
 }
 .social p i{
     margin-right:0.4em;
@@ -86,7 +161,7 @@ body {
 .navigation-bar a:hover {
   color: #e74c3c;
 }
-.navigation-bar a::before {
+/*.navigation-bar a::before {
   content: "";
   transition: all 0.4s ease-in-out;
   position: absolute;
@@ -95,6 +170,8 @@ body {
   bottom: 0;
   height: 2px;
   background-color: #e74c3c;
+  */
+
 }
 
 
@@ -114,7 +191,7 @@ li {
   font-size: 25px;
   font-family: "Roboto", sans-serif;
   border-radius: 5px;
-  background-color:white;
+  background-color:grey;
   color:red;
   padding: 20px 30px;
   cursor: pointer;
@@ -133,7 +210,7 @@ li {
   font-size: 25px;
   font-family: "Roboto", sans-serif;
   border-radius: 5px;
-  background-color:white;
+  background-color:grey;
   color:red;
   padding: 20px 30px;
   cursor: pointer;
@@ -143,4 +220,3 @@ li {
 
 
 }
->>>>>>> Stashed changes
