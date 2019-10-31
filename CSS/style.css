@@ -80,6 +80,51 @@ header a:hover{
   margin: 0;
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #32323e;
+    color: white;
+}
+.top{
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+}
+
+.moreInfo{
+    margin-left: 13em;
+    margin-right: 13em;
+}
+.social p:hover{
+    color: #4c4cff;
+    cursor: pointer;
+
+}
+.social p i{
+    margin-right:0.4em;
+}
+.bot{
+    text-align: center;
+}
+
+>>>>>>> master
 =======
 body {
   background: #34495e;
@@ -156,10 +201,7 @@ li {
   display: inline-block;
   margin-top: -160px;
   margin-left: 1270px;
-
-
 }
-
 
 
 .button2{
@@ -176,6 +218,7 @@ li {
   margin-top: -160px;
   margin-left: 1380px;
 }
+<<<<<<< HEAD
 /* footer */
 footer{
     width: 100%;
@@ -203,4 +246,47 @@ footer{
 }
 .bot{
     text-align: center;
+=======
+
+/* Kontakt skjema */
+.contact-form {
+  background-color: lightgrey;
+  border-radius: 15px;
+  box-shadow: 10px 10px grey;
+  padding: 15px;
+  width: 60%;
+  margin: auto;
 }
+
+.contact-form input, textarea {
+  display: block;
+  padding: 0.75em;
+  box-shadow: 5px 5px grey;
+  margin-bottom: 1em;
+  width: 50%; 
+  border-color: white;
+}
+
+.contact-form input:focus, textarea:focus {
+  transition: 0.5s;
+  box-shadow: 0px 0px;
+>>>>>>> master
+}
+
+
+.contact-form button {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+  padding: 10px;
+  box-shadow: 5px 5px grey;
+}
+
+.form-melding {
+  margin-top: 1em;
+  width: 60%;
+  border: 1px solid black;
+  padding: 1em;
+  background-color: lightyellow;
+}
+
