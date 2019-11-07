@@ -80,6 +80,8 @@ header a:hover{
   margin: 0;
 }
 
+<<<<<<< HEAD
+=======
 
 
 
@@ -122,6 +124,7 @@ footer{
     text-align: center;
 }
 
+>>>>>>> master
 =======
 body {
   background: #34495e;
@@ -216,6 +219,41 @@ li {
   margin-left: 1380px;
 }
 
+/* footer */
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #32323e;
+    color: white;
+    margin-top: 3.5em;
+}
+.top{
+    font-size: 1.1em;
+     margin-right: 20%;
+}
+
+.moreInfo p i{
+    margin-right: 0.4em;
+}
+
+.social{
+    margin-left: 10em;
+}
+
+/* Change the color of social media logos + text, on hover*/
+.social p:hover{
+    color: #4c4cff;
+    cursor: pointer;
+}
+.social p i{
+    margin-right:0.4em;
+}
+.bot{
+    text-align: center;
+}
+
+
 /* Kontakt skjema */
 .contact-form {
   background-color: lightgrey;
@@ -238,6 +276,7 @@ li {
 .contact-form input:focus, textarea:focus {
   transition: 0.5s;
   box-shadow: 0px 0px;
+>>>>>>> master
 }
 
 
